@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>NISC 2026</title>
+  <meta name="description" content="Companion app for the Northeast Intercollegiate Sales Competition at Bryant University, presented with Gartner." />
+  <meta name="theme-color" content="#002856" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <img src="assets/logo-shield.jpg" alt="Bryant NISC shield logo" class="topbar-shield" />
+    <div class="topbar-title">
+      <strong>NISC 2026</strong>
+      <span>Northeast Intercollegiate Sales Competition</span>
+    </div>
+    <img src="assets/logo-gartner.jpg" alt="Gartner" class="topbar-gartner" />
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <nav class="tabbar" aria-label="Main">
+    <button data-tab="home" class="active"><span>🏠</span>Home</button>
+    <button data-tab="schedule"><span>📅</span>Schedule</button>
+    <button data-tab="compete"><span>🏆</span>Compete</button>
+    <button data-tab="practice"><span>⏱️</span>Practice</button>
+    <button data-tab="info"><span>ℹ️</span>Info</button>
+  </nav>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
